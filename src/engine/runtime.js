@@ -2420,6 +2420,7 @@ class Runtime extends EventEmitter {
      * Start all threads that start with the green flag.
      */
     greenFlag () {
+        console.log("%c HEYA IMA TEST FOR GF AND MOD OK NVM :D", "font-size: 36px; font-weight: bold") // Testing feature, subject to removal
         this.stopAll();
         this.emit(Runtime.PROJECT_START);
         this.updateCurrentMSecs();
